@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cardsafe"
+version = "0.1.0"
+description = "Verified, resumable offload of camera cards to multiple destinations, with checksum manifests."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "cardsafe contributors" }]
+keywords = ["photography", "video", "offload", "backup", "checksum", "dit"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Environment :: Console",
+]
+dependencies = []
+
+[project.optional-dependencies]
+xxhash = ["xxhash>=3"]
+
+[project.urls]
+Homepage = "https://github.com/Emincanozen/cardsafe"
+Repository = "https://github.com/Emincanozen/cardsafe"
+Issues = "https://github.com/Emincanozen/cardsafe/issues"
+
+[project.scripts]
+cardsafe = "cardsafe.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

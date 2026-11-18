@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-labelledby="t d">
+  <title id="t">cardsafe</title>
+  <desc id="d">A camera card is copied to two drives, each copy is checked against a checksum, and a manifest is written.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f2a43"/>
+      <stop offset="1" stop-color="#14405f"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#8fd3ff"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="340" rx="18" fill="url(#bg)"/>
+  <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+    <text x="60" y="122" font-size="64" font-weight="700" fill="#ffffff">cardsafe</text>
+    <text x="62" y="165" font-size="24" fill="#cfe9fb">Copy your camera card to several drives.</text>
+    <text x="62" y="199" font-size="24" fill="#cfe9fb">Prove every copy is identical before you format.</text>
+    <text x="62" y="262" font-size="18" fill="#8fd3ff">Python standard library only  |  checksum manifest  |  open source</text>
+
+    <!-- card -->
+    <rect x="690" y="110" width="84" height="110" rx="10" fill="#ffffff"/>
+    <path d="M730 110 h34 a10 10 0 0 1 10 10 v10 h-44 z" fill="#d8e6f2"/>
+    <rect x="700" y="160" width="64" height="8" rx="3" fill="#14405f"/>
+    <rect x="700" y="176" width="48" height="8" rx="3" fill="#14405f"/>
+    <text x="732" y="248" font-size="16" text-anchor="middle" fill="#cfe9fb">card</text>
+
+    <!-- arrows -->
+    <path d="M785 150 L880 100" stroke="#8fd3ff" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+    <path d="M785 180 L880 230" stroke="#8fd3ff" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+    <!-- drives -->
+    <rect x="890" y="62" width="210" height="76" rx="10" fill="#ffffff"/>
+    <text x="910" y="95" font-size="20" font-weight="600" fill="#0f2a43">Drive A</text>
+    <text x="910" y="120" font-size="16" fill="#2b5b7e">copy + manifest</text>
+    <circle cx="1070" cy="100" r="16" fill="#2e9e5b"/>
+    <path d="M1061 100 l7 7 l12 -14" stroke="#ffffff" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="890" y="192" width="210" height="76" rx="10" fill="#ffffff"/>
+    <text x="910" y="225" font-size="20" font-weight="600" fill="#0f2a43">Drive B</text>
+    <text x="910" y="250" font-size="16" fill="#2b5b7e">copy + manifest</text>
+    <circle cx="1070" cy="230" r="16" fill="#2e9e5b"/>
+    <path d="M1061 230 l7 7 l12 -14" stroke="#ffffff" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
