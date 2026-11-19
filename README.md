@@ -257,6 +257,10 @@ Ideas, not promises:
 - Overlap source reads with destination writes and hash in parallel for speed.
 - Long-path support on Windows.
 
+## Contributing
+
+Issues and pull requests are welcome: see [CONTRIBUTING.md](CONTRIBUTING.md). Security problems go through [SECURITY.md](SECURITY.md). Changes are listed in [CHANGELOG.md](CHANGELOG.md).
+
 ## License
 
 MIT, see [LICENSE](LICENSE).
