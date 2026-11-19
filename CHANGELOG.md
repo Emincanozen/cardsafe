@@ -4,6 +4,10 @@ All notable changes are listed here. The format follows [Keep a Changelog](https
 
 ## [Unreleased]
 
+## [0.1.1]
+
+- Fix the release workflow: install the package before running the tests.
+
 ## [0.1.0]
 
 - First public version.
