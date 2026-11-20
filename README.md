@@ -4,6 +4,8 @@
 
 <br>
 
+[![PyPI](https://img.shields.io/pypi/v/cardsafe.svg?logo=pypi&logoColor=white)](https://pypi.org/project/cardsafe/)
+[![PyPI downloads](https://img.shields.io/pypi/dm/cardsafe.svg)](https://pypi.org/project/cardsafe/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776AB.svg?logo=python&logoColor=white)](pyproject.toml)
 [![Dependencies: none](https://img.shields.io/badge/dependencies-stdlib%20only-success.svg)](pyproject.toml)
@@ -110,7 +112,16 @@ The `cardsafe-manifest.json` written by this run begins like this (see [Manifest
 
 ## Quick start
 
-You need Python 3.10 or newer (developed and tested with 3.12). cardsafe is **not on PyPI**; install it from a clone of this repository:
+You need Python 3.10 or newer (developed and tested with 3.12). 
+
+Install from PyPI:
+
+```bash
+pip install cardsafe
+cardsafe --version
+```
+
+Or install from a clone of this repository:
 
 ```bash
 git clone https://github.com/Emincanozen/cardsafe.git cardsafe
